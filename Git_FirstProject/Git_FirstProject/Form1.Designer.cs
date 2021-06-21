@@ -42,6 +42,7 @@ namespace Git_FirstProject
             this.button1.TabIndex = 0;
             this.button1.Text = "테스트용 버튼";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 

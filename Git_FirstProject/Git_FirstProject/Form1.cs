@@ -15,7 +15,15 @@ namespace Git_FirstProject
         public Form1()
         {
             InitializeComponent();
+
+            
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // 버튼 클릭 핸들러 생성
+
+            button1.Text = "테스트 버튼 텍스트 변경!";
+        }
     }
 }
